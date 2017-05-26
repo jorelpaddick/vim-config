@@ -21,6 +21,7 @@ unzip them in ~/.vim/bundle and pathogen will handle the rest.
 
 for example to enable the nerdtree plugin:
     'cd ~/.vim/bundle'
+    
     'git clone https://github.com/scrooloose/nerdtree.git'
 
 That's it!
