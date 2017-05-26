@@ -1,6 +1,8 @@
 # My Vim Configuration
  
 ## Why use this config?
+It's the easy way to instantly improve your vim environment!
+You can extend it later when you have the time... and more coffee.
 
 ## How to use this config:
 
