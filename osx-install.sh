@@ -1,18 +1,11 @@
 # Firstly Clean up the old vim config
-#Backing it up
 mkdir previous-config
 mv ~/.vim* previous-config
 
-#Delete the old files
-rm -rf ~/.vim
-rm -rf ~/.vimrc
-
 # Now copy the new vim files over
 cp .vimrc ~/.vimrc
-cp -R .vim ~/.vim
+cp -R .vim/ ~/.vim
 mv previous-config ~/.vim/
-#If for some random reason there is an error then clean up.
-rm -rf previous-config
 
 # This config uses additional plugins which have links provided
 # in the README.md file.
