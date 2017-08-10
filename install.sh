@@ -4,7 +4,7 @@ mv ~/.vim* previous-config
 
 # Now copy the new vim files over
 cp .vimrc ~/.vimrc
-cp .vim/ ~/.vim -r
+cp -R .vim/ ~/.vim
 mv previous-config ~/.vim/
 
 # This config uses additional plugins which have links provided
