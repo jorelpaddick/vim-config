@@ -18,6 +18,7 @@ set mouse=a "enable the mouse for occasional lazyness
 set ttymouse=xterm2
 set autoindent "Automatic indentation
 set smartindent "Context specific indentation
+filetype plugin on
 
 "Press j twice and this will exit insert mode.
 "No more rasing your hand to press the escape key.
@@ -78,6 +79,14 @@ autocmd bufwritepost,filewritepost *.h execute "normal `a""`"
 "This header is for hpp files:
 autocmd bufnewfile *.hpp so ~/.vim/headers/c-style.txt
 autocmd bufnewfile *.hpp exe "g/FILE NAME:.*/s//FILE NAME : " .expand("%")
+autocmd bufnewfile *.hpp exe "g/CREATED:.*/s//CREATED: " .strftime("%d-%m-%Y")
+autocmd Bufwritepre,filewritepre *hpp execute "normal ma"
+autocmd Bufwritepre,filewritepre *.hpp exe "g/MODIFIED:.*/s/MODIFIED:.*/MODIFIED : " .strftime("%c")
+autocmd bufwritepost,filewritepost *.hpp execute "normal `a""`"
+
+"For Python Files
+autocmd bufnewfile *.py so ~/.vim/headers/py-style.txt
+autocmd bufnewfile *.hpp exe "g/FILE :.*/s//FILE : " .expand("%")
 autocmd bufnewfile *.hpp exe "g/CREATED:.*/s//CREATED: " .strftime("%d-%m-%Y")
 autocmd Bufwritepre,filewritepre *hpp execute "normal ma"
 autocmd Bufwritepre,filewritepre *.hpp exe "g/MODIFIED:.*/s/MODIFIED:.*/MODIFIED : " .strftime("%c")
