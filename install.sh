@@ -1,12 +1,30 @@
 #!/bin/bash
 VIMRC=~/.vimrc # Define location of users .vimrc file
 VIMDIR=~/.vim  # Define location of users .vim directory
+VIMOLD=~/.vim.old
+
 
 # Check to see if a vim configuration already exists
-if [ -d $VIMDIR] ; then
-    echo "Vim exists!"
-else
-    echo "vim does not exist"
+if [ -d $VIMDIR ] ; then
+    echo "[WARNING] A vim configuration already exists!"
+    read -p "[>] Would you like to save it? Y/n " save
+    if [ "$save" != "n" ] && [ "$save" != "N" ] ; then
+        # if the user wants to keep their previous configuration:
+        # Save the old one here
+        if [ ! -d $VIMOLD ] ; then # Check if .vim.old doesn't exist 
+            # If not then create VIMOLD
+            echo "[INFO] Creating backup directory"
+            mkdir $VIMOLD
+        fi
+        echo "[INFO] Saving Previous .vimrc"
+        cp $VIMRC $VIMOLD
+        echo "[INFO] Saving Previous .vim/"
+        cp -r $VIMDIR $VIMOLD
+    fi
+fi
+
+# Begin installation
+echo "Begin install"
     
 
 # Firstly Clean up the old vim config
