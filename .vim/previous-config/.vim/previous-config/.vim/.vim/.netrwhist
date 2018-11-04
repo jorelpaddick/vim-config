@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/home/jragon14/Projects/git/jsrv/src'
-let g:netrw_dirhist_2='/home/jragon14/Documents/University/2017/Working/Operating Systems/os-assignment/using-processes'
-let g:netrw_dirhist_3='/home/jorel/Documents/University/2017/Working/Fundamental Concepts of Data Security/Labs/6'
