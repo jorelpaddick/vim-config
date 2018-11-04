@@ -31,37 +31,18 @@ rm -rf $VIMDIR
 echo "[INFO] Installing vimrc" 
 cp vimrc $VIMRC
 cp -R vim $VIMDIR
+echo "[INFO] Installing plugins (this may take some time)"
+git clone https://github.com/tomtom/tlib_vim.git $VIMDIR/bundle/tlib_vim/
+git clone https://github.com/MarcWeber/vim-addon-mw-utils.git $VIMDIR/bundle/vim-addon-mw-utils/
+git clone https://github.com/garbas/vim-snipmate.git $VIMDIR/bundle/vim-snipmate/
+git clone https://github.com/jiangmiao/auto-pairs.git $VIMDIR/bundle/auto-pairs/
+git clone https://github.com/scrooloose/nerdcommenter.git $VIMDIR/bundle/nerdcommenter/
+git clone https://github.com/godlygeek/tabular.git $VIMDIR/bundle/tabular/
+git clone https://github.com/vim-syntastic/syntastic.git $VIMDIR/bundle/vim-syntastic/
+git clone https://github.com/tpope/vim-surround.git $VIMDIR/bundle/vim-surround/
+git clone https://github.com/dhruvasagar/vim-table-mode.git $VIMDIR/bundle/vim-table-mode/
+git clone https://github.com/scrooloose/nerdtree.git $VIMDIR/bundle/nerdtree
+git clone https://github.com/vim-scripts/SyntaxRange.git $VIMDIR/bundle/SyntaxRange
+git clone https://github.com/jceb/vim-orgmode.git $VIMDIR/bundle/vim-orgmode
+echo "[INFO] Finished. Vim is now ready."
 
-# Firstly Clean up the old vim config
-#Backing it up
-#mkdir previous-config
-#mv ~/.vim* previous-config
-
-#Delete the old files
-#rm -rf ~/.vim
-#rm -rf ~/.vimrc
-
-# Now copy the new vim files over
-#cp .vimrc ~/.vimrc
-#cp -R .vim ~/.vim
-#mv previous-config ~/.vim/
-#If for some random reason there is an error then clean up.
-#rm -rf previous-config
-
-# This config uses additional plugins which have links provided
-# in the README.md file.
-
-# Fetch those plugins from git
-#echo "Getting plugins..."
-#git clone https://github.com/tomtom/tlib_vim.git ~/.vim/bundle/tlib_vim/
-#git clone https://github.com/MarcWeber/vim-addon-mw-utils.git ~/.vim/bundle/vim-addon-mw-utils/
-#git clone https://github.com/garbas/vim-snipmate.git ~/.vim/bundle/vim-snipmate/
-#git clone https://github.com/honza/vim-snippets.git ~/.vim/bundle/vim-snippets/
-
-#git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs/
-#git clone https://github.com/scrooloose/nerdcommenter.git ~/.vim/bundle/nerdcommenter/
-#git clone https://github.com/godlygeek/tabular.git ~/.vim/bundle/tabular/
-#git clone https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/vim-syntastic/
-#git clone https://github.com/tpope/vim-surround.git ~/.vim/bundle/vim-surround/
-#git clone https://github.com/dhruvasagar/vim-table-mode.git ~/.vim/bundle/vim-table-mode/
-#echo "Vim has been made awesome"

@@ -41,6 +41,41 @@ The plugins that this config will install by default are listed below:
     by Caleb Maclennan
     https://github.com/scrooloose/nerdcommenter
 
+### nerdtree
+    "The NERDTree is a file system explorer for the Vim editor."
+    by Martin Grenfell
+    https://github.com/scrooloose/nerdtree.git 
+
+### SyntaxRange
+    "Define a different filetype syntax on regions of a buffer."
+    by vim-scripts
+    https://github.com/vim-scripts/SyntaxRange.git
+
+### tabular
+    "Sometimes, it's useful to line up text"
+    by Matt Wozniski
+    https://github.com/godlygeek/tabular.git 
+
+### tlib_vim
+    "This library provides some utility functions."
+    by Tom Link
+    https://github.com/tomtom/tlib_vim.git 
+
+### vim-addon-mw-utils
+    ""vim: interpret a file by function and cache file automatically
+    by Marc Weber
+    https://github.com/MarcWeber/vim-addon-mw-utils.git 
+
+### vim-orgmode
+    "Text outlining and task management for Vim based on Emacs' Org-Mode"
+    by Jan Christoph Ebersbach 
+    https://github.com/jceb/vim-orgmode.git 
+
+### vim-snipmate
+    "A concise vim script that implements some of TextMate's snippets features in Vim."
+    by Rok Garbas
+    https://github.com/garbas/vim-snipmate.git 
+
 ### vim-syntastic
     "Syntax checking hacks for vim"
     by LCD 047
@@ -50,3 +85,9 @@ The plugins that this config will install by default are listed below:
     "surround.vim: quoting/parenthesizing made simple"
     by Adriaan Zonnenberg
     https://github.com/tpope/vim-surround
+
+### vim-table-mode
+    "VIM Table Mode for instant table creation."
+    by Dhruva Sagar
+    https://github.com/dhruvasagar/vim-table-mode.git 
+
