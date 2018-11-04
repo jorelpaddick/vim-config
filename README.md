@@ -7,10 +7,7 @@ You can extend it later when you have the time... and more coffee.
 ## How to use this config:
 
 1. Download this zip, or clone this repository on your system.
-2. Run the included install script which will clone your current
-    vim configuration install the new one and a set of plugins
-    then copy your previous config into ~/.vim/previous-config.
-
+2. Run the included install script. (You can save your existing configuration)
 3. Run vim.
 
 That's it!
