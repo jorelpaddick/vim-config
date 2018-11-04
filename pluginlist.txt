@@ -1,0 +1,16 @@
+total 4936
+drwxr-xr-x   7 jorel  jorel      224  4 Nov 11:14 SyntaxRange
+drwx--x--x   7 jorel  jorel      224  4 Nov 11:14 auto-pairs
+-rw-r--r--   1 jorel  jorel        0  4 Nov 11:14 file
+drwx--x--x   8 jorel  jorel      256  4 Nov 11:14 nerdcommenter
+drwxr-xr-x  15 jorel  jorel      480  4 Nov 11:14 nerdtree
+drwxr-xr-x  10 jorel  jorel      320  4 Nov 11:14 tabular
+drwxr-xr-x  17 jorel  jorel      544  4 Nov 11:14 tlib_vim
+drwxr-xr-x   7 jorel  jorel      224  4 Nov 11:14 vim-addon-mw-utils
+drwxr-xr-x  23 jorel  jorel      736  4 Nov 11:14 vim-orgmode
+drwxr-xr-x  15 jorel  jorel      480  4 Nov 11:14 vim-snipmate
+drwxr-xr-x  15 jorel  jorel      480  4 Nov 11:14 vim-snippets
+-rwx--x--x   1 jorel  jorel  2526720  4 Nov 11:14 vim-snippets.tar.gz
+drwx--x--x   7 jorel  jorel      224  4 Nov 11:14 vim-surround
+drwx--x--x  12 jorel  jorel      384  4 Nov 11:14 vim-syntastic
+drwxr-xr-x  16 jorel  jorel      512  4 Nov 11:14 vim-table-mode

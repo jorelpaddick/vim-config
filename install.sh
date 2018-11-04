@@ -24,8 +24,13 @@ if [ -d $VIMDIR ] ; then
 fi
 
 # Begin installation
-echo "Begin install"
-    
+echo "[INFO] Beginning Installation..." 
+echo "[INFO] Cleaning up..."
+rm -rf $VIMRC
+rm -rf $VIMDIR
+echo "[INFO] Installing vimrc" 
+cp vimrc $VIMRC
+cp -R vim $VIMDIR
 
 # Firstly Clean up the old vim config
 #Backing it up
