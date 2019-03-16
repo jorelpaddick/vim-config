@@ -88,3 +88,13 @@ The plugins that this config will install by default are listed below:
     by Dhruva Sagar
     https://github.com/dhruvasagar/vim-table-mode.git 
 
+### swift.vim
+    "Vim tuntime files for Swift"
+    by Keith Smiley
+    https://github.com/keith/swift.vim
+
+### Snort-vim
+    "snort hog Improved vim experience for Snort users"
+    by Victor Roemer
+    https://github.com/wtfbbqhax/Snort-vim
+
