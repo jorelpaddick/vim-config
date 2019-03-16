@@ -32,17 +32,33 @@ echo "[INFO] Installing vimrc"
 cp vimrc $VIMRC
 cp -R vim $VIMDIR
 echo "[INFO] Installing plugins (this may take some time)"
-git clone https://github.com/tomtom/tlib_vim.git $VIMDIR/bundle/tlib_vim/
-git clone https://github.com/MarcWeber/vim-addon-mw-utils.git $VIMDIR/bundle/vim-addon-mw-utils/
-git clone https://github.com/garbas/vim-snipmate.git $VIMDIR/bundle/vim-snipmate/
-git clone https://github.com/jiangmiao/auto-pairs.git $VIMDIR/bundle/auto-pairs/
-git clone https://github.com/scrooloose/nerdcommenter.git $VIMDIR/bundle/nerdcommenter/
-git clone https://github.com/godlygeek/tabular.git $VIMDIR/bundle/tabular/
-git clone https://github.com/vim-syntastic/syntastic.git $VIMDIR/bundle/vim-syntastic/
-git clone https://github.com/tpope/vim-surround.git $VIMDIR/bundle/vim-surround/
-git clone https://github.com/dhruvasagar/vim-table-mode.git $VIMDIR/bundle/vim-table-mode/
-git clone https://github.com/scrooloose/nerdtree.git $VIMDIR/bundle/nerdtree
-git clone https://github.com/vim-scripts/SyntaxRange.git $VIMDIR/bundle/SyntaxRange
-git clone https://github.com/jceb/vim-orgmode.git $VIMDIR/bundle/vim-orgmode
+git clone https://github.com/tomtom/tlib_vim.git \
+        $VIMDIR/bundle/tlib_vim/
+git clone https://github.com/MarcWeber/vim-addon-mw-utils.git \
+        $VIMDIR/bundle/vim-addon-mw-utils/
+git clone https://github.com/garbas/vim-snipmate.git \
+        $VIMDIR/bundle/vim-snipmate/
+git clone https://github.com/jiangmiao/auto-pairs.git \
+        $VIMDIR/bundle/auto-pairs/
+git clone https://github.com/scrooloose/nerdcommenter.git \
+        $VIMDIR/bundle/nerdcommenter/
+git clone https://github.com/godlygeek/tabular.git \
+        $VIMDIR/bundle/tabular/
+git clone https://github.com/vim-syntastic/syntastic.git \
+        $VIMDIR/bundle/vim-syntastic/
+git clone https://github.com/tpope/vim-surround.git \
+        $VIMDIR/bundle/vim-surround/
+git clone https://github.com/dhruvasagar/vim-table-mode.git \
+        $VIMDIR/bundle/vim-table-mode/
+git clone https://github.com/scrooloose/nerdtree.git \
+        $VIMDIR/bundle/nerdtree
+git clone https://github.com/vim-scripts/SyntaxRange.git \
+        $VIMDIR/bundle/SyntaxRange
+git clone https://github.com/jceb/vim-orgmode.git \
+        $VIMDIR/bundle/vim-orgmode
+git clone https://github.com/keith/swift.vim.git \
+        $VIMDIR/bundle/swift.vim
+git clone https://github.com/wtfbbqhax/Snort-vim.git \
+        $VIMDIR/bunbdle/Snort-vim
 echo "[INFO] Finished. Vim is now ready."
 
