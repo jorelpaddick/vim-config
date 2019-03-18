@@ -2,6 +2,8 @@
 VIMRC=~/.vimrc # Define location of users .vimrc file
 VIMDIR=~/.vim  # Define location of users .vim directory
 VIMOLD=~/.vim.old
+VERSION='3.0'
+echo "VERSION: $VERSION"
 
 
 # Check to see if a vim configuration already exists
