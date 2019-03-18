@@ -59,6 +59,6 @@ git clone https://github.com/jceb/vim-orgmode.git \
 git clone https://github.com/keith/swift.vim.git \
         $VIMDIR/bundle/swift.vim
 git clone https://github.com/wtfbbqhax/Snort-vim.git \
-        $VIMDIR/bunbdle/Snort-vim
+        $VIMDIR/bundle/Snort-vim
 echo "[INFO] Finished. Vim is now ready."
 
