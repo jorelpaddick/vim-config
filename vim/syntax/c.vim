@@ -254,6 +254,7 @@ if !exists("c_no_ansi") || exists("c_ansi_typedefs")
   syn keyword   cType		size_t ssize_t off_t wchar_t ptrdiff_t sig_atomic_t fpos_t
   syn keyword   cType		clock_t time_t va_list jmp_buf FILE DIR div_t ldiv_t
   syn keyword   cType		mbstate_t wctrans_t wint_t wctype_t
+  syn match     cType       "[a-z]*_t"
 endif
 if !exists("c_no_c99") " ISO C99
   syn keyword	cType		_Bool bool _Complex complex _Imaginary imaginary
