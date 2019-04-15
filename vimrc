@@ -71,6 +71,8 @@ autocmd BufReadPost,bufnewFile *.java exe "badd ~/.vim/syntax/java.vim"
 "
 "HTML MODE THINGS
 autocmd BufReadPost,bufnewFile *.html exe "set colorcolumn=120"
+autocmd BufReadPost,bufnewFile *.html exe "set tabstop=2"
+autocmd BufReadPost,bufnewFile *.html exe "set shiftwidth=2"
 
 "C MODE THINGS
 autocmd BufReadPost,bufnewFile *.c exe "badd ~/.vim/syntax/c.vim"
