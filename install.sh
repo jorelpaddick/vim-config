@@ -62,5 +62,7 @@ git clone https://github.com/keith/swift.vim.git \
         $VIMDIR/bundle/swift.vim
 git clone https://github.com/wtfbbqhax/Snort-vim.git \
         $VIMDIR/bundle/Snort-vim
+git clone https://github.com/honza/vim-snippets \
+        $VIMDIR/bundle/vim-snippets
 echo "[INFO] Finished. Vim is now ready."
 
