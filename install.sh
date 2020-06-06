@@ -2,7 +2,7 @@
 VIMRC=~/.vimrc # Define location of users .vimrc file
 VIMDIR=~/.vim  # Define location of users .vim directory
 VIMOLD=~/.vim.old
-VERSION='3.0'
+VERSION='3.1'
 echo "VERSION: $VERSION"
 
 
@@ -64,5 +64,7 @@ git clone https://github.com/wtfbbqhax/Snort-vim.git \
         $VIMDIR/bundle/Snort-vim
 git clone https://github.com/honza/vim-snippets \
         $VIMDIR/bundle/vim-snippets
+git clone https://github.com/arrufat/vala.vim.git \
+        $VIMDIR/bundle/vala.vim
 echo "[INFO] Finished. Vim is now ready."
 
